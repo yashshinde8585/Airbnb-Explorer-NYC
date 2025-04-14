@@ -1,40 +1,105 @@
-![](screenshots/nyc_airbnb.jpg)
-<br/>
+# 🗽 NYC Airbnb Listings – Exploratory Data Analysis
 
-Exploratory Data Analysis<br/>
-[Tableau](https://public.tableau.com/views/AirbnbListingsNewYorkCity/Home2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) <br/>
-[SQL](https://github.com/s1dewalker/Airbnb-listings-NYC/blob/main/SQLQuery_Airbnb_NewYork.sql) <br/>
-[Python](https://github.com/s1dewalker/Airbnb-listings-NYC/blob/main/Airbnb%20correlation.ipynb) <br/>
+![NYC Airbnb](screenshots/nyc_airbnb.jpg)
 
-### Viewing the data<br/>
-* Querying in SSMS (SQL Server Management Studio) using self joins, CTEs, procedures, group by to view the data required<br/>
-* Data Cleaning
-* Data Analysis (Q/A)
-* Data Transformation for dashboard visualization<br/>
+Explore the dynamics of Airbnb listings across New York City through a comprehensive **Exploratory Data Analysis (EDA)**. This project dives into listing patterns, prices, reviews, and host behaviors using tools like **SQL**, **Python**, and **Tableau**, transforming raw data into actionable insights and visual storytelling.
 
-### Dashboard<br/>
-* Overview: listings, accomodations available, average price($), average rating, and total reviews info per borough<br/>
+---
 
-![](screenshots/Screenshot1.png)
-* Filtering: Giving the options to find the desired location and attaching the links to the website for more details<br/>
+## 🔗 Live Resources  
+- 📊 [Interactive Tableau Dashboard](https://public.tableau.com/views/AirbnbListingsNewYorkCity/Home2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
+- 🧮 [SQL Query File](https://github.com/s1dewalker/Airbnb-listings-NYC/blob/main/SQLQuery_Airbnb_NewYork.sql)  
+- 🐍 [Python Correlation Analysis](https://github.com/s1dewalker/Airbnb-listings-NYC/blob/main/Airbnb%20correlation.ipynb)  
 
-![](screenshots/Screenshot2.png)
-* Key Insights: Displaying the insights on the boroughs, room types, prices, reviews, and hosts<br/>
+---
 
-![](screenshots/Screenshot3.png)
-* Superhosts v Non Superhosts: Figuring out the edge of superhosts<br/>
+## 🔍 Project Overview
 
-![](screenshots/Screenshot4.png)<br/>
+This project aims to:
+- Understand distribution and trends of Airbnb listings across NYC boroughs.
+- Analyze host behaviors, review patterns, pricing, and accommodation types.
+- Identify patterns between superhosts and non-superhosts.
+- Present insights through interactive visualizations.
 
-### Tech Stack<br/>
-* Excel
-* SQL (SQL Server Management Studio)
-* Tableau
-* Figma
-* Mapbox
-* Python (pandas, seaborn, matplotlib)
+---
 
-<br/><br/>
+## 📂 Workflow Breakdown
 
-*hope you find it helpful, and encourage you to forward any suggestions for improvements* <br/>
-##### [LinkedIn](https://www.linkedin.com/in/sujay-bhaumik-d12/)
+### 📌 1. Data Exploration & Cleaning
+- Explored the dataset using **SQL Server Management Studio (SSMS)**.
+- Used **CTEs**, **joins**, **procedures**, and **group by** queries for slicing and dicing the data.
+- Performed null handling, duplicate removal, and data type corrections.
+
+### 📌 2. Data Analysis (Q&A)
+- Uncovered borough-wise distribution, price analysis, host listings count.
+- Analyzed correlations between reviews, ratings, and prices using **Python** (pandas, seaborn, matplotlib).
+
+### 📌 3. Data Transformation
+- Prepared clean datasets to feed into **Tableau** for dashboarding.
+- Aggregated and grouped data for meaningful visual insights.
+
+---
+
+## 📊 Tableau Dashboard Overview
+
+### 🗺️ Summary Metrics  
+- Overview of total listings, average pricing, rating distribution, review counts by **borough**.
+
+![Overview](screenshots/Screenshot1.png)
+
+---
+
+### 🧭 Filters & Search  
+- Interactive filters by **location**, **room type**, **price range**.
+- Includes direct links to selected Airbnb listings.
+
+![Filtering](screenshots/Screenshot2.png)
+
+---
+
+### 📌 Key Insights  
+- Breakdown of **room types**, **pricing**, and **review patterns**.
+- Identification of **top hosts** and **popular neighborhoods**.
+
+![Key Insights](screenshots/Screenshot3.png)
+
+---
+
+### 🌟 Superhost Analysis  
+- Comparison of **superhosts vs. non-superhosts** on key performance metrics like ratings and reviews.
+
+![Superhosts](screenshots/Screenshot4.png)
+
+---
+
+## 🧰 Tech Stack
+
+| Tool       | Purpose                              |
+|------------|--------------------------------------|
+| **SQL (SSMS)** | Querying & data wrangling             |
+| **Python**     | Statistical analysis, visualizations |
+| **Tableau**    | Interactive dashboards               |
+| **Figma**      | Dashboard planning & layout          |
+| **Mapbox**     | Geospatial visualizations            |
+| **Excel**      | Data cleanup & validation            |
+
+---
+
+## 📝 Key Learnings
+
+- Translating raw Airbnb data into meaningful business insights.
+- Using **SQL** and **Python** for deep data interrogation.
+- Creating user-friendly, interactive dashboards with **Tableau**.
+- Enhancing communication through data storytelling.
+
+---
+
+## 💡 Future Scope
+
+- Integrate real-time Airbnb data using APIs.
+- Perform **predictive modeling** for price or demand forecasting.
+- Expand analysis to other major cities for comparison.
+
+---
+
+If you like this project or have any feedback, feel free to ⭐ the repo or connect with me on [GitHub](https://github.com/yashshinde8585)!
