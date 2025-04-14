@@ -94,12 +94,5 @@ This project aims to:
 
 ---
 
-## 💡 Future Scope
 
-- Integrate real-time Airbnb data using APIs.
-- Perform **predictive modeling** for price or demand forecasting.
-- Expand analysis to other major cities for comparison.
 
----
-
-If you like this project or have any feedback, feel free to ⭐ the repo or connect with me on [GitHub](https://github.com/yashshinde8585)!
