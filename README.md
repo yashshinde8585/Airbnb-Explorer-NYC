@@ -6,13 +6,6 @@ Explore the dynamics of Airbnb listings across New York City through a comprehen
 
 ---
 
-## 🔗 Live Resources  
-- 📊 [Interactive Tableau Dashboard](https://public.tableau.com/views/AirbnbListingsNewYorkCity/Home2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
-- 🧮 [SQL Query File](https://github.com/s1dewalker/Airbnb-listings-NYC/blob/main/SQLQuery_Airbnb_NewYork.sql)  
-- 🐍 [Python Correlation Analysis](https://github.com/s1dewalker/Airbnb-listings-NYC/blob/main/Airbnb%20correlation.ipynb)  
-
----
-
 ## 🔍 Project Overview
 
 This project aims to:
